@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertidor</title>
+  </head>
+  <body>
+    <div>
+      <h1>Conversor de Temperatura</h1>
+      <legend>
+        <label>Convertir de:</label>
+        <select name="typeOne" id="typeOne">
+          <option value="celcius" selected>Celcius</option>
+          <option value="kelvin">Kelvin</option>
+          <option value="farenhait">Farenhait</option>
+        </select>
+      </legend>
+      <legend>
+        <label>Hacia</label>
+        <select name="typeTwo" id="typeTwo">
+          <option value="celcius" selected>Celcius</option>
+          <option value="kelvin">Kelvin</option>
+          <option value="farenhait">Farenhait</option>
+        </select>
+      </legend>
+      <legend>
+        <div>
+          <input type="number" name="valueToConvert" id="valueToConvert" />
+        </div>
+      </legend>
+      <legend>
+        <div>
+          <input type="text" name="result" id="result" readonly />
+        </div>
+      </legend>
+    </div>
+  </body>
+</html>
